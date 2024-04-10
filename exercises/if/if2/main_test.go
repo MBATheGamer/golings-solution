@@ -1,7 +1,6 @@
 // if2
 // Make me compile!
 
-// I AM NOT DONE
 package main_test
 
 import "testing"
@@ -10,7 +9,7 @@ func fooIfFizz(fizzish string) string {
 	if fizzish == "fizz" {
 		return "foo"
 	} else {
-		return "complete me"
+		return "bar"
 	}
 }
 
