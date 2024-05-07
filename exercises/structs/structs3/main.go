@@ -11,7 +11,7 @@ type Person struct {
 }
 
 func (person *Person) FullName() string {
-	return person.firstName + person.lastName
+	return person.firstName + " " + person.lastName
 }
 
 func main() {
